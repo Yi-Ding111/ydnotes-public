@@ -11,9 +11,11 @@
 在这篇文章中指出模型节点产生的内部协方差偏移是影响模型收敛。
 
 同时提出了著名的Batch normalization。BatchNorm的基本思想是在每个batch里面，对每一层的激活进行规范化处理，从而来降低ICS的影响，保证每层输出的数据分布的稳定。
+
 $$
 x_{i+1}=\gamma \frac{x_i-\mu_b}{\sigma_b}+\beta
 $$
+
 可以肯定的是，在神经网络中加入BatchNorm对于梯度和损失都有明显的改善。
 
 **paper: [How Does Batch Normalization Help Optimization?](https://proceedings.neurips.cc/paper_files/paper/2018/file/905056c1ac1dad141560467e0a99e1cf-Paper.pdf)**
