@@ -22,5 +22,5 @@
 
 |                            Folder                            | Link |        Description        |
 | :----------------------------------------------------------: | :--: | :-----------------------: |
-| [internal_covariate_shift_problem_in DNN](./optimization-methods/batch-normalization/internal-covariate-shift(problem)-EN.md) |      | ICS problem and arguments |
+| [internal_covariate_shift_problem_in DNN](./optimization-methods/batch-normalisation/internal-covariate-shift(problem)-EN.md) |      | ICS problem and arguments |
 
