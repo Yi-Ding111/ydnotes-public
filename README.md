@@ -17,3 +17,10 @@
 |               Folder                |                   Link                   |                         Description                          |
 | :---------------------------------: | :--------------------------------------: | :----------------------------------------------------------: |
 |                 [L1 regularisation](./over-fitting/lasso-regularisation)                  |                                          |         L1 description (with mathmatical calculation steps)                                                     |
+
+3. Folder: [optimization methods](./optimization-methods) includes approaches for optimization.
+
+|                            Folder                            | Link |        Description        |
+| :----------------------------------------------------------: | :--: | :-----------------------: |
+| [internal_covariate_shift_problem_in DNN](./optimization-methods/batch-normalization/internal-covariate-shift(problem)-EN.md) |      | ICS problem and arguments |
+
