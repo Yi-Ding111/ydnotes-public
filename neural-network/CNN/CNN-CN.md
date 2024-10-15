@@ -207,7 +207,9 @@ image\_red\_channel\_local \circ kernal\_red\_channel=\begin{bmatrix} 0&50&0\\0&
 $$
 最后将所有元素相加，就是这一个生成的矩阵（在这里就是**卷积核的红色通道的矩阵**）对于图像红色通道的输入矩阵的局部卷积所得到的特征值：
 $$
-local\_feature=\sum \begin{bmatrix} 0*-1&50*0&0*1\\0*-2&80*0&31*2\\33*-1&90*0&0*1 \end{bmatrix}=(0*-1)+(50*0)+(0*1)+(0*-2)+(80*0)+(31*2)+(33*-1)+(90*0)+(0*-1)=29
+local\_feature=\sum \begin{bmatrix} 0*-1&50*0&0*1\\0*-2&80*0&31*2\\33*-1&90*0&0*1 \end{bmatrix}
+\\
+=(0*-1)+(50*0)+(0*1)+(0*-2)+(80*0)+(31*2)+(33*-1)+(90*0)+(0*-1)=29
 $$
 
 
@@ -429,7 +431,9 @@ $$
 
 当我们进行反向传播时，我们需要用总损失函数对权重进行梯度求导：
 $$
-\frac{\partial total\_loss}{\partial w_i}=\frac{\partial (- \sum(ylog(\hat y))+\lambda_1 \sum^{layer1\_weights\_num}_m |w_m|+\lambda_2 \sum^{layer2\_weights\_num}_n w_n^2)}{\partial w_i}=\frac{\partial (- \sum(ylog(\hat y)))}{\partial w_i}+\frac{\lambda_1 \sum^{layer1\_weights\_num}_m}{\partial w_i}+\frac{\lambda_2 \sum^{layer2\_weights\_num}_n w_n^2}{\partial w_i}
+\frac{\partial total\_loss}{\partial w_i}=\frac{\partial (- \sum(ylog(\hat y))+\lambda_1 \sum^{layer1\_weights\_num}_m |w_m|+\lambda_2 \sum^{layer2\_weights\_num}_n w_n^2)}{\partial w_i}
+\\
+=\frac{\partial (- \sum(ylog(\hat y)))}{\partial w_i}+\frac{\lambda_1 \sum^{layer1\_weights\_num}_m}{\partial w_i}+\frac{\lambda_2 \sum^{layer2\_weights\_num}_n w_n^2}{\partial w_i}
 \\
 y在这里可以看作是所有权重的线性组合。
 \\
