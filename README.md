@@ -10,6 +10,7 @@
 | [MLP/pdf](./neural-network/MLP/pdf) |                                          |     pdf version of MLP note, avoid formatting confusion.     |
 | [CNN](./neural-network/CNN/)         |[CNN-CN](./neural-network/CNN/CNN-CN.md) | CNN笔记的中文版本（包含CNN模型中用到的所有层，并包含Resnet，因为Resnet在CNN模型中影响深远） |
 | [CNN/pdf](./neural-network/CNN/pdf) |                                          |     pdf version of CNN note, avoid formatting confusion.     |
+| [Transformer](./neural-network/Transformers/) | [transformer-CN](./neural-network/Transformers/transformer-CN.md) | Transformer 笔记中文版本 ｜
 
 
 
